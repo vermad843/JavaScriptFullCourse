@@ -10,7 +10,6 @@ function increment() {
       countEl.innerText = count 
 }
 
-increment();
 
 
 
