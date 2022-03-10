@@ -12,6 +12,17 @@
 // console.log(divide);
 
 
+let username = "DK";
+let lastname = "verma"
+
+function Name() {
+  const fullName = username + ' ' + lastname
+  console.log(fullName);
+}
+
+Name ();
+
+
 
 let countEl =  document.getElementById("count-el")
 console.log(countEl.innerText);//0
