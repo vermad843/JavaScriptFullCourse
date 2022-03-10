@@ -1,23 +1,3 @@
-// document.getElementById("count").innerText = 5
-
-let countEl =  document.getElementById("count-el")
-console.log(countEl.innerText);//0
-
-let count = 0;
-
-function increment() {
-      count = count + 1;
-      countEl.innerText = count 
-}
-
-function decrement() {
-      count = count -1;
-      countEl.innerText = count 
-}
-
-
-
-
 // Mathematical
 // let firstNumber = 5;
 // let secondNumber = 7;
@@ -30,6 +10,31 @@ function decrement() {
 // console.log(subtract);
 // console.log(multiply);
 // console.log(divide);
+
+
+
+let countEl =  document.getElementById("count-el")
+console.log(countEl.innerText);//0
+
+let count = 0;
+
+function increment() {
+      count = count + 1;
+      countEl.innerText = count 
+}
+
+function decrement() {
+      if(count < 0 ) {
+            return 0;
+      }else {
+       count = count - 1;
+       return countEl.innerText = count + 1 
+      }    
+}
+
+
+
+
 
 
  
