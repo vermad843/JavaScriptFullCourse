@@ -23,6 +23,11 @@ function increment() {
       countEl.innerText = count 
 }
 
+
+function save() {
+      console.log(count);
+}
+
 function decrement() {
       if(count < 0 ) {
             return 0;
