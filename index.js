@@ -23,39 +23,42 @@
 // Name ();
 
 
+let saveEl = document.getElementById("save-btn")
+let countEl =  document.getElementById("count-el")
+let count = 0;
 
-// let countEl =  document.getElementById("count-el")
-// console.log(countEl.innerText);//0
-
-// let count = 0;
-
-// function increment() {
-//       count = count + 1;
-//       countEl.innerText = count 
-// }
+console.log(saveEl);
 
 
-// function save() {
-//       console.log(count);
-// }
-
-// function decrement() {
-//       if(count < 0 ) {
-//             return 0;
-//       }else {
-//        count = count - 1;
-//        return countEl.innerText = count + 1 
-//       }    
-// }
+function increment() {
+      count = count + 1;
+      countEl.innerText = count 
+}
 
 
+function save() {
+      let countStr = count + " - "
+      saveEl.innerText = countStr
+     
+}
 
-let welcomeEl = document.getElementById("welcome-el")
+function decrement() {
+      if(count < 0 ) {
+            return 0;
+      }else {
+       count = count - 1;
+       return countEl.innerText = count + 1 
+      }    
+}
 
-let name = "Logan"
-let greeting = "Wolverine "
 
-welcomeEl.innerText = greeting + name 
+
+// let welcomeEl = document.getElementById("welcome-el")
+
+// let name = "Logan"
+// let greeting = "Wolverine "
+
+// welcomeEl.innerText = greeting + name 
 
 
 
