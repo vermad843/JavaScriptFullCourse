@@ -12,41 +12,50 @@
 // console.log(divide);
 
 
-let username = "DK";
-let lastname = "verma"
+// let username = "DK";
+// let lastname = "verma"
 
-function Name() {
-  const fullName = username + ' ' + lastname
-  console.log(fullName);
-}
+// function Name() {
+//   const fullName = username + ' ' + lastname;
+//   console.log(fullName);
+// }
 
-Name ();
-
-
-
-let countEl =  document.getElementById("count-el")
-console.log(countEl.innerText);//0
-
-let count = 0;
-
-function increment() {
-      count = count + 1;
-      countEl.innerText = count 
-}
+// Name ();
 
 
-function save() {
-      console.log(count);
-}
 
-function decrement() {
-      if(count < 0 ) {
-            return 0;
-      }else {
-       count = count - 1;
-       return countEl.innerText = count + 1 
-      }    
-}
+// let countEl =  document.getElementById("count-el")
+// console.log(countEl.innerText);//0
+
+// let count = 0;
+
+// function increment() {
+//       count = count + 1;
+//       countEl.innerText = count 
+// }
+
+
+// function save() {
+//       console.log(count);
+// }
+
+// function decrement() {
+//       if(count < 0 ) {
+//             return 0;
+//       }else {
+//        count = count - 1;
+//        return countEl.innerText = count + 1 
+//       }    
+// }
+
+
+
+let welcomeEl = document.getElementById("welcome-el")
+
+let name = "Logan"
+let greeting = "Wolverine "
+
+welcomeEl.innerText = greeting + name 
 
 
 
