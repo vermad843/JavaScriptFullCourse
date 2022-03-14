@@ -77,7 +77,14 @@ let fullName = firstname + ' ' + lastName
 console.log(fullName);
 
 
+// Create a function that logs out 'Hii there,Logan wolverine' when called
 
+
+function Name() {
+      return `Hii there, ${firstname} ${lastName}`
+}
+
+console.log(Name());
 
 
 
