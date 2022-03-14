@@ -22,37 +22,38 @@
 
 // Name ();
 
+//[x] Counter app
 
-let saveEl = document.getElementById("save-btn")
-let countEl =  document.getElementById("count-el")
-let count = 0;
+// let saveEl = document.getElementById("save-btn")
+// let countEl =  document.getElementById("count-el")
+// let count = 0;
 
-console.log(saveEl);
-
-
-function increment() {
-      count = count + 1;
-      countEl.textContent = count 
-}
+// console.log(saveEl);
 
 
-function save() {
-      let countStr = count + " - "
-      saveEl.textContent+= countStr
-      countEl.textContent = 0
-      count = 0
-}
-
-function decrement() {
-      if(count < 0 ) {
-            return 0;
-      }else {
-       count = count - 1;
-       return countEl.textContent = count + 1 
-      }    
-}
+// function increment() {
+//       count = count + 1;
+//       countEl.textContent = count 
+// }
 
 
+// function save() {
+//       let countStr = count + " - "
+//       saveEl.textContent+= countStr
+//       countEl.textContent = 0
+//       count = 0
+// }
+
+// function decrement() {
+//       if(count < 0 ) {
+//             return 0;
+//       }else {
+//        count = count - 1;
+//        return countEl.textContent = count + 1 
+//       }    
+// }
+
+// 
 
 // let welcomeEl = document.getElementById("welcome-el")
 
@@ -60,6 +61,20 @@ function decrement() {
 // let greeting = "Wolverine "
 
 // welcomeEl.innerText = greeting + name 
+
+
+
+
+// create two variables,firstname and lastName
+//  Concatenate the two variables into a third variable called fullName
+//  Log fullName to the console
+
+
+let firstname = 'Logan'
+let lastName = 'Wolverine'
+
+let fullName = firstname + ' ' + lastName
+console.log(fullName);
 
 
 
