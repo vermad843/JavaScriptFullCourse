@@ -48,7 +48,7 @@ function decrement() {
             return 0;
       }else {
        count = count - 1;
-       return countEl.innerText = count + 1 
+       return countEl.textContent = count + 1 
       }    
 }
 
