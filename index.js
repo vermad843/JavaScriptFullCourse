@@ -96,25 +96,37 @@
 // Call the fuinctions to that the line below logs out 10
 
 
-let myPoints = 3;
+// let myPoints = 3;
 
-function add3Points() { 
-  myPoints = myPoints + 1
-  console.log(myPoints);
-}
+// function add3Points() { 
+//   myPoints = myPoints + 1
+//   console.log(myPoints);
+// }
 
-add3Points();
-
-
-function removalPoint() {
-  myPoints = myPoints - 1
-  console.log(myPoints);
-}
+// add3Points();
 
 
-removalPoint()
+// function removalPoint() {
+//   myPoints = myPoints - 1
+//   console.log(myPoints);
+// }
+
+
+// removalPoint()
 
 
 
-console.log(myPoints);
+// console.log(myPoints);
+
+
+
+// [x] Strings and numbers 
+
+
+console.log("2" + 2)//22
+console.log(11 + 7)//18
+console.log(6 + "5")//65
+console.log("My points: " + 5 + 9)//My points: 59
+console.log(2 + 2)//4
+console.log("11" + "14")//1114
  
