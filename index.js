@@ -63,29 +63,58 @@
 // welcomeEl.innerText = greeting + name 
 
 
-
+// [x] - varibales practice
 
 // create two variables,firstname and lastName
 //  Concatenate the two variables into a third variable called fullName
 //  Log fullName to the console
 
 
-let firstname = 'Logan'
-let lastName = 'Wolverine'
+// let firstname = 'Logan'
+// let lastName = 'Wolverine'
 
-let fullName = firstname + ' ' + lastName
-console.log(fullName);
+// let fullName = firstname + ' ' + lastName
+// console.log(fullName);
 
 
 // Create a function that logs out 'Hii there,Logan wolverine' when called
 
 
-function Name() {
-      return `Hii there, ${firstname} ${lastName}`
+// function Name() {
+//       return `Hii there, ${firstname} ${lastName}`
+// }
+
+// console.log(Name());
+
+
+
+//[x] - Increment and Decrement 
+
+// create two functions, add3Points() and removalPoint(), and have them
+// add/remove points to/from the myPoints variable
+
+// Call the fuinctions to that the line below logs out 10
+
+
+let myPoints = 3;
+
+function add3Points() { 
+  myPoints = myPoints + 1
+  console.log(myPoints);
 }
 
-console.log(Name());
+add3Points();
+
+
+function removalPoint() {
+  myPoints = myPoints - 1
+  console.log(myPoints);
+}
+
+
+removalPoint()
 
 
 
+console.log(myPoints);
  
