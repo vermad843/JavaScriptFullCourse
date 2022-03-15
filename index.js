@@ -138,11 +138,24 @@
 // that has the id="error".
 
 
-let errorParagraph = document.getElementById("error")
-console.log(errorParagraph)
+// let errorParagraph = document.getElementById("error")
+// console.log(errorParagraph)
 
 
-function increment() {
-   console.log("Button Clicked");
-   errorParagraph.textContent = "Something went wrong, please try again"
-}
+// function increment() {
+//    console.log("Button Clicked");
+//    errorParagraph.textContent = "Something went wrong, please try again"
+// }
+
+
+
+
+let num1 = 8
+let num2 = 2
+
+document.getElementById("num1-el").textContent = num1
+document.getElementById("num2-el").textContent = num2
+
+// Create four functions : add(), subtract(), divide(), multiply()
+// 
+
