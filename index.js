@@ -169,7 +169,12 @@ let sumEl = document.getElementById('sum-el');
 console.log(sumEl);
 
 function add() {
-  sumEl.textContent = num1 + num2
-  console.log("clicked")
+  let result = num1 + num2
+  sumEl.textContent = "Sum: " + result
 }
 
+
+function subtract() {
+    let result = num1 - num2
+    sumEl.textContent = "Sum: " + result 
+}
