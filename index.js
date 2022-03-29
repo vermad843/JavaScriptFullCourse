@@ -202,3 +202,21 @@ let secondCard = 5;
 
 let sum = firstCard + secondCard;
 console.log(sum);
+
+
+// Conditions : 21, >21, <21
+
+if(sum < 21) {
+  console.log('Do u want to draw a new card')
+}
+
+else if(sum === 21) {
+    console.log('You got a blackjack')
+}
+
+else if(sum > 21) {
+    console.log('you r out of game')
+  }
+
+  
+
