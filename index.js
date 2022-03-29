@@ -150,42 +150,55 @@
 
 
 
-let num1 = 8
-let num2 = 2
+// let num1 = 8
+// let num2 = 2
 
 
-document.getElementById("num1-el").textContent = num1
-document.getElementById("num2-el").textContent = num2
+// document.getElementById("num1-el").textContent = num1
+// document.getElementById("num2-el").textContent = num2
 
-// Create four functions : add(), subtract(), divide(), multiply()
-// Call the correct function when the user clicks on one of the buttons
-// perform the given calculation using num1 and num2
-// render the result of the calculation in the paragraph with id="sum-el"
+// // Create four functions : add(), subtract(), divide(), multiply()
+// // Call the correct function when the user clicks on one of the buttons
+// // perform the given calculation using num1 and num2
+// // render the result of the calculation in the paragraph with id="sum-el"
 
-// e.g if the user clicks on the "Plus" button, you should render
-// "sum: 10" (since 8 + 2 = 10) inside the paragraph with id="sum-el"
+// // e.g if the user clicks on the "Plus" button, you should render
+// // "sum: 10" (since 8 + 2 = 10) inside the paragraph with id="sum-el"
 
-let sumEl = document.getElementById('sum-el');
-console.log(sumEl);
+// let sumEl = document.getElementById('sum-el');
+// console.log(sumEl);
 
-function add() {
-  let result = num1 + num2
-  sumEl.textContent = "Sum: " + result
-}
-
-
-function subtract() {
-    let result = num1 - num2
-    sumEl.textContent = "Sum: " + result 
-}
-
-function divide() {
-    let result = num1/num2
-    sumEl.textContent = "Sum: " + result
-}
+// function add() {
+//   let result = num1 + num2
+//   sumEl.textContent = "Sum: " + result
+// }
 
 
-function multiply() {
-    let result = num1 * num2
-    sumEl.textContent = "Sum: " + result
-}
+// function subtract() {
+//     let result = num1 - num2
+//     sumEl.textContent = "Sum: " + result 
+// }
+
+// function divide() {
+//     let result = num1/num2
+//     sumEl.textContent = "Sum: " + result
+// }
+
+
+// function multiply() {
+//     let result = num1 * num2
+//     sumEl.textContent = "Sum: " + result
+// }
+
+
+
+//  1. Create two variables, firstCard and secondCard.
+//  Set their values to a random number between 2-11
+
+//  2. Create a variable,sum, and set it to the sum of the two cards
+
+let firstCard = 3;
+let secondCard = 5;
+
+let sum = firstCard + secondCard;
+console.log(sum);
