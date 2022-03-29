@@ -197,26 +197,45 @@
 
 //  2. Create a variable,sum, and set it to the sum of the two cards
 
-let firstCard = 3;
-let secondCard = 5;
+// let firstCard = 3;
+// let secondCard = 5;
 
-let sum = firstCard + secondCard;
-console.log(sum);
+// let sum = firstCard + secondCard;
+// console.log(sum);
 
 
 // Conditions : 21, >21, <21
 
-if(sum < 21) {
-  console.log('Do u want to draw a new card')
+// if(sum < 21) {
+//   console.log('Do u want to draw a new card')
+// }
+
+// else if(sum === 21) {
+//     console.log('You got a blackjack')
+// }
+
+// else (sum > 21) {
+//     console.log('you r out of game')
+//   }
+
+
+// Practice : 1
+
+// Check if the person is old enough to enter the nightclub(21)
+//  Log a suitable message to the console in both cases
+
+let age = 22
+
+//  if less then 21 -> "You can not enter the club"
+//  else  -> "welcome"
+
+
+if (age < 21) {
+    console.log("You can not enter the club");
 }
 
-else if(sum === 21) {
-    console.log('You got a blackjack')
+else {
+    console.log("welcome")
 }
-
-else if(sum > 21) {
-    console.log('you r out of game')
-  }
-
   
 
