@@ -265,21 +265,29 @@
 
 
 let firstCard = 10;
-let secondCard = 7;
+let secondCard = 11;
 
 let sum = firstCard + secondCard;
+let hasBlackJack = false
 
 // Write the conditional according to the rules:
 
 //  if less than or equal to 20 -> "Do you want to draw a new card"
 //  else if exactly 21 -> "wohoo! you've got Blackjack!"
 //  else -> "You're out of the game!"
+// adding hasBlackJack variable
 
 
 if (sum <= 20) {
     console.log("Do you want to draw a new card")
 }else if (sum === 21) {
     console.log("wohoo! you've got Blackjack!")
+    hasBlackJack = true
 }else {
     console.log("You're out of the game!")
 }
+
+
+// CASH OUT!
+
+console.log(hasBlackJack);
