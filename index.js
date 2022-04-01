@@ -244,17 +244,42 @@
 
 // check if the person is eligible for a birthday card from the king!(100)
 
-let age = 100
+// let age = 100
 
-// if less than 100 -> "Not eligible"
-// else if exactly -> "Here is your birthday card from the king!"
-//  else           -> "Not eligible,you have already gotten one"
+// // if less than 100 -> "Not eligible"
+// // else if exactly -> "Here is your birthday card from the king!"
+// //  else           -> "Not eligible,you have already gotten one"
 
 
-if(age < 100) {
-    console.log("Not eligible")
-} else if (age === 100) {
-    console.log("Here is your birthday card from the king!")
-} else {
-    console.log("Not eligible,you have already gotten one")
+// if(age < 100) {
+//     console.log("Not eligible")
+// } else if (age === 100) {
+//     console.log("Here is your birthday card from the king!")
+// } else {
+//     console.log("Not eligible,you have already gotten one")
+// }
+
+
+
+// [BlackJack Game]
+
+
+let firstCard = 10;
+let secondCard = 7;
+
+let sum = firstCard + secondCard;
+
+// Write the conditional according to the rules:
+
+//  if less than or equal to 20 -> "Do you want to draw a new card"
+//  else if exactly 21 -> "wohoo! you've got Blackjack!"
+//  else -> "You're out of the game!"
+
+
+if (sum <= 20) {
+    console.log("Do you want to draw a new card")
+}else if (sum === 21) {
+    console.log("wohoo! you've got Blackjack!")
+}else {
+    console.log("You're out of the game!")
 }
