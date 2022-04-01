@@ -264,37 +264,51 @@
 // [BlackJack Game]
 
 
-let firstCard = 10;
-let secondCard = 11;
+// let firstCard = 10;
+// let secondCard = 11;
 
-let sum = firstCard + secondCard;
-let hasBlackJack = false
-let isAlive = true
+// let sum = firstCard + secondCard;
+// let hasBlackJack = false
+// let isAlive = true
 
-// Write the conditional according to the rules:
+// // Write the conditional according to the rules:
 
-//  if less than or equal to 20 -> "Do you want to draw a new card"
-//  else if exactly 21 -> "wohoo! you've got Blackjack!"
-//  else -> "You're out of the game!"
-// adding hasBlackJack variable
-//  add the isAlive variable 
-//  1. Create a variable called isAlive and assign it to true
+// //  if less than or equal to 20 -> "Do you want to draw a new card"
+// //  else if exactly 21 -> "wohoo! you've got Blackjack!"
+// //  else -> "You're out of the game!"
+// // adding hasBlackJack variable
+// //  add the isAlive variable 
+// //  1. Create a variable called isAlive and assign it to true
 
-//  2. Flip its value to false in the appropraite code block
+// //  2. Flip its value to false in the appropraite code block
 
 
-if (sum <= 20) {
-    console.log("Do you want to draw a new card")
-}else if (sum === 21) {
-    console.log("wohoo! you've got Blackjack!")
-    hasBlackJack = true
-}else {
-    console.log("You're out of the game!")
-    isAlive = false
-}
+// if (sum <= 20) {
+//     console.log("Do you want to draw a new card")
+// }else if (sum === 21) {
+//     console.log("wohoo! you've got Blackjack!")
+//     hasBlackJack = true
+// }else {
+//     console.log("You're out of the game!")
+//     isAlive = false
+// }
 
 
 // CASH OUT!
 
-console.log(hasBlackJack);
-console.log(isAlive);
+// console.log(hasBlackJack);
+// console.log(isAlive);
+
+
+
+
+// Practice : [Boolean(True,False) Conditions]
+
+
+console.log(4 === 3) //false
+console.log(5 > 2) // true
+console.log(12 > 12) // false
+console.log(3 < 0) // false
+console.log(3 >= 3) // true
+console.log(11 <= 11) //true
+console.log(3 <= 2) // false
