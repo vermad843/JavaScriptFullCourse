@@ -270,6 +270,7 @@ let secondCard = 11;
 let sum = firstCard + secondCard;
 let hasBlackJack = false
 let isAlive = true
+let message = ""
 
 // Write the conditional according to the rules:
 
@@ -282,15 +283,21 @@ let isAlive = true
 
 //  2. Flip its value to false in the appropraite code block
 
+// 3. Create a startGame() function. Move the conditional
+// below (line 11-20) inside the body of the function.
 
-if (sum <= 20) {
-    console.log("Do you want to draw a new card")
-}else if (sum === 21) {
-    console.log("wohoo! you've got Blackjack!")
-    hasBlackJack = true
-}else {
-    console.log("You're out of the game!")
-    isAlive = false
+
+function startGame() {
+    if (sum <= 20) {
+        message = "Do you want to draw a new card"
+    }else if (sum === 21) {
+        message = "wohoo! you've got Blackjack!"
+        hasBlackJack = true
+    }else {
+        message = "You're out of the game!"
+        isAlive = false
+    }
+    console.log(message);
 }
 
 
@@ -298,6 +305,9 @@ if (sum <= 20) {
 
 console.log(hasBlackJack);
 console.log(isAlive);
+
+
+
 
 
 
