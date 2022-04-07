@@ -263,6 +263,8 @@
 
 // [BlackJack Game]
 
+let messageEl = document.getElementById("message-el")
+
 
 let firstCard = 10;
 let secondCard = 11;
@@ -271,6 +273,8 @@ let sum = firstCard + secondCard;
 let hasBlackJack = false
 let isAlive = true
 let message = ""
+
+// * store the message-el paragraph in a variable called messageEl
 
 // Write the conditional according to the rules:
 
@@ -295,9 +299,11 @@ function startGame() {
         hasBlackJack = true
     }else {
         message = "You're out of the game!"
+        
+
         isAlive = false
     }
-    console.log(message);
+   messageEl.textContent = message
 }
 
 
