@@ -8,3 +8,5 @@
 [x] Make a start button work 
 
 [x] Display the message
+
+[x] Display the cards
