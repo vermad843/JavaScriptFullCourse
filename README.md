@@ -13,3 +13,5 @@
 
 [x] new card button 
 
+[x] Add to the sum when newCard is clicked
+
