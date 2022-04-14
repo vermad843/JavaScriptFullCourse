@@ -309,7 +309,11 @@ function startGame() {
 }
 
 
-// CASH OUT!
+function newCard(){
+    console.log('Drawing a new card from the deck!')
+}
+
+ // CASH OUT!
 
 console.log(hasBlackJack);
 console.log(isAlive);
