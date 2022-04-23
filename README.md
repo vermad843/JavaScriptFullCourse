@@ -15,3 +15,8 @@
 
 [x] Add to the sum when newCard is clicked
 
+
+Array : []
+
+[x] adding and removing from array
+

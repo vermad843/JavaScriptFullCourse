@@ -377,8 +377,23 @@ console.log(isAlive);
 // Create an array that describes yourself. use the three primitive data types you've learned
 //  It should contain your name (string),your age (number), and whether you like pizza (boolean)
 
-let complexDataType = [
-   'Fiction',
-   23,
-   true
-]
+// let complexDataType = [
+//    'Fiction',
+//    23,
+//    true
+// ]
+
+
+let changes = [7, 4]
+
+changes.push(6);
+console.log(changes)//add at the end
+
+changes.pop();
+console.log(changes)//remove from the end
+
+changes.unshift(9);
+console.log(changes)// add at the front 
+
+changes.shift();
+console.log(changes);//remove from the front
