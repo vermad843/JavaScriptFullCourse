@@ -340,17 +340,19 @@ console.log(isAlive);
 
 
 
-// Arrays - ordered lists of items 
 
-let featuredPosts = [
-    "Check out my Netflix clone",
-    "Here's the code for my project",
-    "I've just relaunched my portfolio"
-]
 
-// find the array length 
+// Arrays(Practice) - ordered lists of items 
 
-console.log(featuredPosts.length);//3
+// let featuredPosts = [
+//     "Check out my Netflix clone",//0
+//     "Here's the code for my project",//1
+//     "I've just relaunched my portfolio"//2
+// ]
+
+// // find the array length 
+
+// console.log(featuredPosts.length);//3
 
 // Create an array that lists your i.e. experience,education,licenses,skills or similar
 //  the items of the array should be strings
@@ -365,3 +367,18 @@ console.log(featuredPosts.length);//3
 
 // console.log(arr[0]);
 // console.log(arr[1]);
+
+
+
+//[2] : 
+
+//  Array - ordered list of items - coposite/complex data type
+
+// Create an array that describes yourself. use the three primitive data types you've learned
+//  It should contain your name (string),your age (number), and whether you like pizza (boolean)
+
+let complexDataType = [
+   'Fiction',
+   23,
+   true
+]
