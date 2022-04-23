@@ -267,7 +267,7 @@
 
 let firstCard = 10;
 let secondCard = 11;
-
+let cards = [firstCard, secondCard]
 let sum = firstCard + secondCard;
 let hasBlackJack = false
 let isAlive = true
@@ -337,3 +337,27 @@ console.log(isAlive);
 // console.log(3 >= 3) // true
 // console.log(11 <= 11) //true
 // console.log(3 <= 2) // false
+
+
+
+// Arrays - ordered lists of items 
+
+let featuredPosts = [
+    "Check out my Netflix clone",
+    "Here's the code for my project",
+    "I've just relaunched my portfolio"
+]
+
+// Create an array that lists your i.e. experience,education,licenses,skills or similar
+//  the items of the array should be strings
+
+let arr = [
+    'CEO',
+    'Frontend Developer',
+    'React'
+]
+
+// Make the following appear in the console:
+
+console.log(arr[0]);
+console.log(arr[1]);
