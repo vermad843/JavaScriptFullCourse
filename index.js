@@ -348,16 +348,20 @@ let featuredPosts = [
     "I've just relaunched my portfolio"
 ]
 
+// find the array length 
+
+console.log(featuredPosts.length);//3
+
 // Create an array that lists your i.e. experience,education,licenses,skills or similar
 //  the items of the array should be strings
 
-let arr = [
-    'CEO',
-    'Frontend Developer',
-    'React'
-]
+// let arr = [
+//     'CEO',
+//     'Frontend Developer',
+//     'React'
+// ]
 
-// Make the following appear in the console:
+// // Make the following appear in the console:
 
-console.log(arr[0]);
-console.log(arr[1]);
+// console.log(arr[0]);
+// console.log(arr[1]);
