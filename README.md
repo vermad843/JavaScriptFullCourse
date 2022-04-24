@@ -20,3 +20,5 @@ Array : []
 
 [x] adding and removing from array
 
+[x] counting in javascript
+
