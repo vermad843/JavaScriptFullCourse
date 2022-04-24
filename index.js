@@ -408,6 +408,19 @@ console.log(isAlive);
 
 // for loop 
 
-for (let count = 1; count < 11; count +=1) {
-    console.log(count);
+// for (let count = 1; count < 11; count +=1) {
+//     console.log(count);
+// }
+
+
+
+// Example 
+
+// create a for loop that counts from 10 to 100 in steps of 10
+//  use console.log to log out the numbers
+
+
+for (let i = 10; i <= 100; i+=10) {
+    console.log(i);
 }
+
