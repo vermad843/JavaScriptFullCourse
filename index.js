@@ -292,9 +292,15 @@ let cardsEl = document.getElementById('cards-el')
 // 3. Create a startGame() function. Move the conditional
 // below (line 11-20) inside the body of the function.
 
-
 function startGame() {
-    cardsEl.textContent = "Cards: " + firstCard + " " + secondCard
+    renderGame()
+}
+
+
+
+
+function renderGame() {
+    cardsEl.textContent = "Cards: " + cards[0] + " " + cards[1]
     sumEl.textContent = "Sum: " + sum
     if (sum <= 20) {
         message = "Do you want to draw a new card"
@@ -310,10 +316,11 @@ function startGame() {
 
 
 function newCard(){
-    console.log('Drawing a new card from the deck!')
     let card = 7;
     sum+= card
-    startGame()
+    cards.push(card)
+    console.log(cards)
+    renderGame()
 }
 
  // CASH OUT!
@@ -384,16 +391,16 @@ console.log(isAlive);
 // ]
 
 
-let changes = [7, 4]
+// let changes = [7, 4]
 
-changes.push(6);
-console.log(changes)//add at the end
+// changes.push(6);
+// console.log(changes)//add at the end
 
-changes.pop();
-console.log(changes)//remove from the end
+// changes.pop();
+// console.log(changes)//remove from the end
 
-changes.unshift(9);
-console.log(changes)// add at the front 
+// changes.unshift(9);
+// console.log(changes)// add at the front 
 
-changes.shift();
-console.log(changes);//remove from the front
+// changes.shift();
+// console.log(changes);//remove from the front
