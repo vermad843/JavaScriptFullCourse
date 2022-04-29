@@ -265,16 +265,16 @@
 
 
 
-let firstCard = 10;
-let secondCard = 11;
-let cards = [firstCard, secondCard]
-let sum = firstCard + secondCard;
-let hasBlackJack = false
-let isAlive = true
-let message = ""
-let messageEl = document.getElementById("message-el")
-let sumEl = document.getElementById("sum-el")
-let cardsEl = document.getElementById('cards-el')
+// let firstCard = 10; 
+// let secondCard = 11;
+// let cards = [firstCard, secondCard]
+// let sum = firstCard + secondCard;
+// let hasBlackJack = false
+// let isAlive = true
+// let message = ""
+// let messageEl = document.getElementById("message-el")
+// let sumEl = document.getElementById("sum-el")
+// let cardsEl = document.getElementById('cards-el')
 
 // * store the message-el paragraph in a variable called messageEl
 
@@ -292,41 +292,45 @@ let cardsEl = document.getElementById('cards-el')
 // 3. Create a startGame() function. Move the conditional
 // below (line 11-20) inside the body of the function.
 
-function startGame() {
-    renderGame()
-}
+// function startGame() {
+//     renderGame()
+// }
 
 
 
 
-function renderGame() {
-    cardsEl.textContent = "Cards: " + cards[0] + " " + cards[1]
-    sumEl.textContent = "Sum: " + sum
-    if (sum <= 20) {
-        message = "Do you want to draw a new card"
-    }else if (sum === 21) {
-        message = "wohoo! you've got Blackjack!"
-        hasBlackJack = true
-    }else {
-        message = "You're out of the game!"
-        isAlive = false
-    }
-   messageEl.textContent = message
-}
+// function renderGame() {
+//     cardsEl.textContent = "Cards: " 
+    
+//     for (let i = 0; i < cards.length; i++) {
+//         cardsEl.textContent += cards[i] + " "
+//     }
+//     sumEl.textContent = "Sum: " + sum
+//     if (sum <= 20) {
+//         message = "Do you want to draw a new card"
+//     }else if (sum === 21) {
+//         message = "wohoo! you've got Blackjack!"
+//         hasBlackJack = true
+//     }else {
+//         message = "You're out of the game!"
+//         isAlive = false
+//     }
+//    messageEl.textContent = message
+// }
 
 
-function newCard(){
-    let card = 7;
-    sum+= card
-    cards.push(card)
-    console.log(cards)
-    renderGame()
-}
+// function newCard(){
+//     let card = 7;
+//     sum+= card
+//     cards.push(card)
+//     console.log(cards)
+//     renderGame()
+// }
 
- // CASH OUT!
+// //  // CASH OUT!
 
-console.log(hasBlackJack);
-console.log(isAlive);
+// console.log(hasBlackJack);
+// console.log(isAlive);
 
 
 
@@ -420,7 +424,36 @@ console.log(isAlive);
 //  use console.log to log out the numbers
 
 
-for (let i = 10; i <= 100; i+=10) {
-    console.log(i);
+// for (let i = 10; i <= 100; i+=10) {
+//     console.log(i);
+// }
+
+
+
+// let sentence = ['Hello', 'my', 'name', 'is', 'Per']
+// let greetingEl = document.getElementById('greeting-el')
+
+// //  render the sentence in the greetingEl paragraph using a for loop and .textContent
+
+// for (let i = 0; i < sentence.length; i++) {
+//     greetingEl.textContent += sentence[i]
+// }
+
+
+// 
+
+let player1Time = 102
+let player2Time = 107 
+
+function getFastestRaceTime() {
+    if(player1Time < player2Time) {
+        return player1Time
+    } else if (player2Time < player1Time) {
+        return player2Time
+    } else {
+        return player1Time
+    }
 }
 
+let fastestRace = getFastestRaceTime()
+console.log(fastestRace);
