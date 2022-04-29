@@ -477,5 +477,19 @@
 // console.log(randomNumber);
 
 
-let flooredNumber = Math.floor(3.45632)
-console.log(flooredNumber);
+// let flooredNumber = Math.floor(3.45632)
+// console.log(flooredNumber);
+
+// let randomNumber = Math.floor( Math.random() * 6)
+// console.log(randomNumber);
+
+
+// Create a function, rollDice(), that returns a random number between 1 and 6
+
+
+function rollDice() {
+    let randomNumber = Math.floor(Math.random() * 6) + 1
+    return randomNumber
+}
+
+console.log(rollDice());
