@@ -22,3 +22,5 @@ Array : []
 
 [x] counting in javascript
 
+[x] Math.random()
+

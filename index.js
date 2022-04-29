@@ -265,8 +265,8 @@
 
 
 
-// let firstCard = 10; 
-// let secondCard = 11;
+// let firstCard = getRandomCard() 
+// let secondCard = getRandomCard()
 // let cards = [firstCard, secondCard]
 // let sum = firstCard + secondCard;
 // let hasBlackJack = false
@@ -297,6 +297,10 @@
 // }
 
 
+// function getRandomCard() {
+//     return 5 
+// }
+
 
 
 // function renderGame() {
@@ -320,7 +324,7 @@
 
 
 // function newCard(){
-//     let card = 7;
+//     let card = getRandomCard()
 //     sum+= card
 //     cards.push(card)
 //     console.log(cards)
@@ -442,27 +446,32 @@
 
 // 
 
-let player1Time = 102
-let player2Time = 107 
+// let player1Time = 102
+// let player2Time = 107 
 
-function getFastestRaceTime() {
-    if(player1Time < player2Time) {
-        return player1Time
-    } else if (player2Time < player1Time) {
-        return player2Time
-    } else {
-        return player1Time
-    }
-}
+// function getFastestRaceTime() {
+//     if(player1Time < player2Time) {
+//         return player1Time
+//     } else if (player2Time < player1Time) {
+//         return player2Time
+//     } else {
+//         return player1Time
+//     }
+// }
 
-let fastestRace = getFastestRaceTime()
-console.log(fastestRace);
-
-
-function getTotalRaceTime() {
-    return player1Time + player2Time
-}
+// let fastestRace = getFastestRaceTime()
+// console.log(fastestRace);
 
 
-let totalTime = getTotalRaceTime()
-console.log(totalTime);
+// function getTotalRaceTime() {
+//     return player1Time + player2Time
+// }
+
+
+// let totalTime = getTotalRaceTime()
+// console.log(totalTime);
+
+
+
+let randomNumber = Math.random()
+console.log(randomNumber);
