@@ -22,5 +22,7 @@ Array : []
 
 [x] counting in javascript
 
-[x] Math.random()
+[x] Math.random(),Math.floor()
+
+[x] set of cards - A(11),2,3,4,5,6,7,8,9,10,J(11),Q(12),K(13)-((J,Q,K) - 10)
 

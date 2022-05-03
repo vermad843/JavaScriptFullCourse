@@ -265,16 +265,16 @@
 
 
 
-// let firstCard = getRandomCard() 
-// let secondCard = getRandomCard()
-// let cards = [firstCard, secondCard]
-// let sum = firstCard + secondCard;
-// let hasBlackJack = false
-// let isAlive = true
-// let message = ""
-// let messageEl = document.getElementById("message-el")
-// let sumEl = document.getElementById("sum-el")
-// let cardsEl = document.getElementById('cards-el')
+let firstCard = getRandomCard() 
+let secondCard = getRandomCard()
+let cards = [firstCard, secondCard]
+let sum = firstCard + secondCard;
+let hasBlackJack = false
+let isAlive = true
+let message = ""
+let messageEl = document.getElementById("message-el")
+let sumEl = document.getElementById("sum-el")
+let cardsEl = document.getElementById('cards-el')
 
 // * store the message-el paragraph in a variable called messageEl
 
@@ -292,49 +292,59 @@
 // 3. Create a startGame() function. Move the conditional
 // below (line 11-20) inside the body of the function.
 
-// function startGame() {
-//     renderGame()
-// }
+function startGame() {
+    renderGame()
+}
+
+// No between 1 to 13 - no of cards in a game
+
+function getRandomCard() {
+    // if 1  -> return 11
+    // if 11-13 -> return 10
+    let randomNumber =  Math.floor(Math.random()*13) + 1
+    if(randomNumber > 10) {
+        return 10
+    } else if (randomNumber === 1) {
+        return 11
+    }else {
+        return randomNumber
+    }
+}
 
 
-// function getRandomCard() {
-//     return 5 
-// }
 
-
-
-// function renderGame() {
-//     cardsEl.textContent = "Cards: " 
+function renderGame() {
+    cardsEl.textContent = "Cards: " 
     
-//     for (let i = 0; i < cards.length; i++) {
-//         cardsEl.textContent += cards[i] + " "
-//     }
-//     sumEl.textContent = "Sum: " + sum
-//     if (sum <= 20) {
-//         message = "Do you want to draw a new card"
-//     }else if (sum === 21) {
-//         message = "wohoo! you've got Blackjack!"
-//         hasBlackJack = true
-//     }else {
-//         message = "You're out of the game!"
-//         isAlive = false
-//     }
-//    messageEl.textContent = message
-// }
+    for (let i = 0; i < cards.length; i++) {
+        cardsEl.textContent += cards[i] + " "
+    }
+    sumEl.textContent = "Sum: " + sum
+    if (sum <= 20) {
+        message = "Do you want to draw a new card"
+    }else if (sum === 21) {
+        message = "wohoo! you've got Blackjack!"
+        hasBlackJack = true
+    }else {
+        message = "You're out of the game!"
+        isAlive = false
+    }
+   messageEl.textContent = message
+}
 
 
-// function newCard(){
-//     let card = getRandomCard()
-//     sum+= card
-//     cards.push(card)
-//     console.log(cards)
-//     renderGame()
-// }
+function newCard(){
+    let card = getRandomCard()
+    sum+= card
+    cards.push(card)
+    console.log(cards)
+    renderGame()
+}
 
 // //  // CASH OUT!
 
-// console.log(hasBlackJack);
-// console.log(isAlive);
+console.log(hasBlackJack);
+console.log(isAlive);
 
 
 
@@ -487,9 +497,9 @@
 // Create a function, rollDice(), that returns a random number between 1 and 6
 
 
-function rollDice() {
-    let randomNumber = Math.floor(Math.random() * 6) + 1
-    return randomNumber
-}
+// function rollDice() {
+//     let randomNumber = Math.floor(Math.random() * 6) + 1
+//     return randomNumber
+// }
 
-console.log(rollDice());
+// console.log(rollDice());
