@@ -289,7 +289,7 @@ let cardsEl = document.getElementById('cards-el')
 // 3. Create a startGame() function. Move the conditional
 // below (line 11-20) inside the body of the function.
 
-console.log(cards);
+
 
 function startGame() {
     isAlive = true
@@ -341,7 +341,6 @@ function newCard(){
     let card = getRandomCard()
     sum+= card
     cards.push(card)
-    console.log(cards)
     renderGame()
 }
 
@@ -507,3 +506,20 @@ function newCard(){
 // }
 
 // console.log(rollDice());
+
+
+
+//  Logical operator (&&)
+
+
+let hasCompletedCourse = true
+let givesCertificate = true
+
+
+if(hasCompletedCourse === true && givesCertificate === true) {
+    generateCertificate()
+}
+
+function generateCertificate() {
+    console.log('Generating certificate...')
+}

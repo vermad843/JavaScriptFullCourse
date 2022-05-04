@@ -28,5 +28,9 @@ Array : []
 
 [x] Assign values in the startGame function(random numbers between 1 to 10)
 
+[x] our new card feature is broken(when we click the new card it is showing only 1 card)
+
+[x] the logical AND operator 
+
 
 
