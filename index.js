@@ -512,11 +512,27 @@ function newCard(){
 //  Logical operator (&&)
 
 
+// let hasCompletedCourse = true
+// let givesCertificate = true
+
+
+// if(hasCompletedCourse === true && givesCertificate === true) {
+//     generateCertificate()
+// }
+
+// function generateCertificate() {
+//     console.log('Generating certificate...')
+// }
+
+
+//  Logical operator (||)-when both are false then ir will not run the
+//  generateCertificate function
+
 let hasCompletedCourse = true
 let givesCertificate = true
 
 
-if(hasCompletedCourse === true && givesCertificate === true) {
+if(hasCompletedCourse === false || givesCertificate === false) {
     generateCertificate()
 }
 
