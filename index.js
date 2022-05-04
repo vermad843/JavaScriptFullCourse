@@ -338,10 +338,12 @@ function renderGame() {
 
 
 function newCard(){
-    let card = getRandomCard()
-    sum+= card
-    cards.push(card)
-    renderGame()
+    if(isAlive === true && hasBlackjack === false ){
+        let card = getRandomCard()
+        sum+= card
+        cards.push(card)
+        renderGame()
+    }
 }
 
 // //  // CASH OUT!
@@ -525,17 +527,20 @@ function newCard(){
 // }
 
 
+
+
+
 //  Logical operator (||)-when both are false then ir will not run the
 //  generateCertificate function
 
-let hasCompletedCourse = true
-let givesCertificate = true
+// let hasCompletedCourse = true
+// let givesCertificate = true
 
 
-if(hasCompletedCourse === false || givesCertificate === false) {
-    generateCertificate()
-}
+// if(hasCompletedCourse === false || givesCertificate === false) {
+//     generateCertificate()
+// }
 
-function generateCertificate() {
-    console.log('Generating certificate...')
-}
+// function generateCertificate() {
+//     console.log('Generating certificate...')
+// }
