@@ -568,35 +568,47 @@ function newCard(){
 
 // objects and functions
 
-let person = {
-    name : 'DK',
-    age : 26,
-    country : 'india'
-}
+// let person = {
+//     name : 'DK',
+//     age : 26,
+//     country : 'india'
+// }
 
 
-function logData() {
-    console.log(`${person.name} is ${person.age} years old and lives in ${person.country} `)
-}
+// function logData() {
+//     console.log(`${person.name} is ${person.age} years old and lives in ${person.country} `)
+// }
 
-logData();
+// logData();
 
 
 
 // if else
 
-let age = 75
+// let age = 75
 
-if(age < 6) {
-    console.log('free')
-}else if ( age < 18){
-    console.log('child discount')
-}else if(age < 27) {
-    console.log('student discount')
-}else if(age < 66) {
-    console.log('full price')
-}else {
-    console.log('senior citizen discount')
+// if(age < 6) {
+//     console.log('free')
+// }else if ( age < 18){
+//     console.log('child discount')
+// }else if(age < 27) {
+//     console.log('student discount')
+// }else if(age < 66) {
+//     console.log('full price')
+// }else {
+//     console.log('senior citizen discount')
+// }
+
+
+
+// Loops and Arrays 
+
+let largeCountries = ["China","India","USA","Indonesia","Pakistan"]
+
+for (let i = 0; i < largeCountries.length; i++) {
+    const element = largeCountries[i];
+    console.log(element);
+    
 }
 
 
