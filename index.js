@@ -273,21 +273,15 @@ let messageEl = document.getElementById("message-el")
 let sumEl = document.getElementById("sum-el")
 let cardsEl = document.getElementById('cards-el')
 
-// * store the message-el paragraph in a variable called messageEl
+let player = {
+    name : "Per",
+    chips : 145
+}
 
-// Write the conditional according to the rules:
 
-//  if less than or equal to 20 -> "Do you want to draw a new card"
-//  else if exactly 21 -> "wohoo! you've got Blackjack!"
-//  else -> "You're out of the game!"
-// adding hasBlackJack variable
-//  add the isAlive variable 
-//  1. Create a variable called isAlive and assign it to true
+let playerEl = document.getElementById('player-el')
+playerEl.textContent = player.name + ": $" + player.chips  
 
-//  2. Flip its value to false in the appropraite code block
-
-// 3. Create a startGame() function. Move the conditional
-// below (line 11-20) inside the body of the function.
 
 
 

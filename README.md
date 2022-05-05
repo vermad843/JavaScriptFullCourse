@@ -34,3 +34,6 @@ Array : []
 
 [x] the logical OR(||) operator
 
+[x] object sneak peak 
+
+
