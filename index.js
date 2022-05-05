@@ -263,6 +263,15 @@
 
 // [BlackJack Game]
 
+let player = {
+    name : "Per",
+    chips : 200,
+    sayHello : function() {
+        console.log('Hello world!!')
+    }
+}
+
+player.sayHello();
 
 let cards = []
 let sum = 0
@@ -273,10 +282,6 @@ let messageEl = document.getElementById("message-el")
 let sumEl = document.getElementById("sum-el")
 let cardsEl = document.getElementById('cards-el')
 
-let player = {
-    name : "Per",
-    chips : 145
-}
 
 
 let playerEl = document.getElementById('player-el')
@@ -544,18 +549,18 @@ function newCard(){
 // objects :::
 
 
-let course = {
-    title : "Learn CSS grid for free",
-    lessons : 16,
-    creator : "Per Harald Borgan",
-    length : 63,
-    level : 2,
-    isFree : true,
-    tags : ["html", "css"]
-}
+// let course = {
+//     title : "Learn CSS grid for free",
+//     lessons : 16,
+//     creator : "Per Harald Borgan",
+//     length : 63,
+//     level : 2,
+//     isFree : true,
+//     tags : ["html", "css"]
+// }
 
-console.log(course.length);
-console.log(course.tags);
-console.log(course['tags'])
+// console.log(course.length);
+// console.log(course.tags);
+// console.log(course['tags'])
 
 

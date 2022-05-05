@@ -36,4 +36,8 @@ Array : []
 
 [x] object sneak peak 
 
+[x] use an object to store player data
+
+[x] methods on objects
+
 
