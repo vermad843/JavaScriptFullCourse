@@ -538,3 +538,21 @@ function newCard(){
 // function generateCertificate() {
 //     console.log('Generating certificate...')
 // }
+
+
+
+// objects :::
+
+
+let course = {
+    title : "Learn CSS grid for free",
+    lessons : 16,
+    creator : "Per Harald Borgan",
+    length : 63,
+    level : 2,
+    isFree : true,
+    tags : ["html", "css"]
+}
+
+console.log(course.length);
+
