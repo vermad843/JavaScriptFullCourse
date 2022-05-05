@@ -38,6 +38,9 @@ Array : []
 
 [x] use an object to store player data
 
-[x] methods on objects
+[x] methods on objects - first JS Game(Black jack game)
+
+[x] Recap : Array[],objects{},booleans(true false),if else statements,comparison operators(==, === ),logical operators(&&, ||),for loops,The Math object(Math.random(),floor),return statements,
 
 
+[x] objects and functions

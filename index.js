@@ -271,7 +271,7 @@ let player = {
     }
 }
 
-player.sayHello();
+player.sayHello(); 
 
 let cards = []
 let sum = 0
@@ -337,7 +337,7 @@ function renderGame() {
 
 
 function newCard(){
-    if(isAlive === true && hasBlackjack === false ){
+    if(isAlive === true && hasBlackJack === false ){
         let card = getRandomCard()
         sum+= card
         cards.push(card)
@@ -564,3 +564,19 @@ function newCard(){
 // console.log(course['tags'])
 
 
+
+
+// objects and functions
+
+let person = {
+    name : 'DK',
+    age : 26,
+    country : 'india'
+}
+
+
+function logData() {
+    console.log(`${person.name} is ${person.age} years old and lives in ${person.country} `)
+}
+
+logData();
