@@ -555,4 +555,7 @@ let course = {
 }
 
 console.log(course.length);
+console.log(course.tags);
+console.log(course['tags'])
+
 
