@@ -44,3 +44,9 @@ Array : []
 
 
 [x] objects and functions
+
+
+[x] Building a chrome extensions ::: 
+
+      > Add button and input tag  
+  
