@@ -48,5 +48,7 @@ Array : []
 
 [x] Building a chrome extensions ::: 
 
-      > Add button and input tag  
+      > Add button and input tag
+
+      > style the button and input tag  
   
