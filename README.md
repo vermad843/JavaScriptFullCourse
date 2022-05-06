@@ -54,5 +54,7 @@ Array : []
 
       > Make the input button work with onclick 
 
-      > Refactor to addEventListener 
+      > Refactor to addEventListener
+
+      > Write your first addEventListener 
   
