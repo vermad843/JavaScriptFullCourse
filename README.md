@@ -50,5 +50,7 @@ Array : []
 
       > Add button and input tag
 
-      > style the button and input tag  
+      > style the button and input tag
+
+      > Make the input button work with onclick  
   

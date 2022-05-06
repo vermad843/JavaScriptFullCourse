@@ -608,3 +608,13 @@
 // console.log(isAlive);
 
 
+
+
+// [Chorme Extensions] :::::
+
+
+function saveLead() {
+    console.log('Button Clicked');
+}
+
+
