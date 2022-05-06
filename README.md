@@ -56,5 +56,9 @@ Array : []
 
       > Refactor to addEventListener
 
-      > Write your first addEventListener 
+      > Write your first addEventListener
+
+      > array and inputEl
+
+      > when to say let and const  
   
