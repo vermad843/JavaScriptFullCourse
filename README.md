@@ -52,5 +52,7 @@ Array : []
 
       > style the button and input tag
 
-      > Make the input button work with onclick  
+      > Make the input button work with onclick 
+
+      > Refactor to addEventListener 
   
