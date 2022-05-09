@@ -70,5 +70,7 @@ Array : []
 
       > Create the unordered list
 
+      > Render the leads in the unordered list
+
 
   

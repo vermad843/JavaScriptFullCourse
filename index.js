@@ -619,12 +619,11 @@ const ulEl = document.getElementById('ul-el')
 
 inputBtn.addEventListener("click", function() {
     myLeads.push(inputEl.value)
-    for (let i = 0; i < myLeads.length; i++) {
-        const element = myLeads[i];
-        console.log(element)     
-    }
 })
 
+for (let i = 0; i < myLeads.length; i++) {
+    ulEl.textContent  += myLeads[i] + " " 
+}
 
 
 // Example  
