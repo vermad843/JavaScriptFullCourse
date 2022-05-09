@@ -68,5 +68,7 @@ Array : []
 
       > use a for loop to log out leads
 
-      
+      > Create the unordered list
+
+
   
