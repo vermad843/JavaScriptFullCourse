@@ -60,5 +60,9 @@ Array : []
 
       > array and inputEl
 
-      > when to say let and const  
+      > when to say let and const 
+
+      > pushing to an array 
+
+      > pushing an input field value  
   
