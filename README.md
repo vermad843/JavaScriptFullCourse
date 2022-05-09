@@ -65,4 +65,8 @@ Array : []
       > pushing to an array 
 
       > pushing an input field value  
+
+      > use a for loop to log out leads
+
+      
   

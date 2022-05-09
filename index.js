@@ -611,15 +611,17 @@
 
 // [Chorme Extensions] :::::
 
-let myLeads = []
+let myLeads = ["www.awesomelead.com","awesomelead.com","www.awesomelead"]
 const inputEl = document.getElementById("input-el")
 const inputBtn = document.getElementById("input-btn")
 
 
 inputBtn.addEventListener("click", function() {
     myLeads.push(inputEl.value)
-    myLeads.push("www.awesomelead.com")
-    console.log(myLeads)
+    for (let i = 0; i < myLeads.length; i++) {
+        const element = myLeads[i];
+        console.log(element)     
+    }
 })
 
 
