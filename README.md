@@ -78,5 +78,7 @@ Array : []
 
       > improving the performance of out app 
 
+      > create the render function
+
 
   
