@@ -76,6 +76,7 @@ Array : []
 
       > use createElement() and append() instaed of innerHTML
 
+      > improving the performance of out app 
 
 
   
