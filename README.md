@@ -80,5 +80,7 @@ Array : []
 
       > create the render function
 
+      > clear the input field
+
 
   
