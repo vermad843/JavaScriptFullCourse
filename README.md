@@ -74,5 +74,8 @@ Array : []
 
       > innerHtml 
 
+      > use createElement() and append() instaed of innerHTML
+
+
 
   
